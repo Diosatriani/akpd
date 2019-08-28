@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary1">#00BCD4</color>
+    <color name="colorPrimaryDark1">#03A9F4</color>
+    <color name="colorAccent1">#3F51B5</color>
+    <color name="kuningFirebase">#FFCA28</color>
+    <color name="ambarFirebase">#FFA000</color>
+    <color name="orangeFirebase">#F57C00</color>
+    <color name="white">#fff</color>
+    <color name="grey">#CACCCE</color>
+    <color name="kuning">#FFF582</color>
+    <color name="Black">#000000</color>
+</resources>

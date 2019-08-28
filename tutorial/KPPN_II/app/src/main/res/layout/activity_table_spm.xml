@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TableSpmActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabs_table"
+        app:titleTextColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/Base.Theme.AppCompat">
+
+    </android.support.v7.widget.Toolbar>
+
+        <!--<LinearLayout-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/kuning"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="162sp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="28dp"-->
+                <!--android:text="Nomor SPM"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="162sp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="28dp"-->
+                <!--android:text="Nominal"-->
+                <!--android:gravity="center"/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:layout_marginLeft="3dp"-->
+            <!--android:layout_marginRight="3dp"-->
+            <!--android:padding="2dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<ScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<android.support.v7.widget.RecyclerView-->
+                    <!--android:id="@+id/rv_table"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent">-->
+
+                <!--</android.support.v7.widget.RecyclerView>-->
+
+
+            <!--</ScrollView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablelayoutid"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:id="@+id/rowlay"
+                android:background="@android:color/holo_blue_light"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="No" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:text="Nomor SPM" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nominal" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="xx1229" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100.000" />
+            </TableRow>
+
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="xxx12456" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1.000.000" />
+            </TableRow>
+            <TableRow
+                android:background="#ECEFF1"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="xxxx0912" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1.200.000" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/iv_tambahspm"
+                android:layout_gravity="right"
+                android:layout_marginRight="35dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/ic_add_black_24dp"/>
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selanjutnya"/>
+
+
+</LinearLayout>

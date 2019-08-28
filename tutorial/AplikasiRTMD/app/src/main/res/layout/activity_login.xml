@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    tools:context=".Logres.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:text="LOGIN"/>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="19sp"
+            android:background="@drawable/ic_email_black_24dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/Black">
+
+            <EditText
+                android:id="@+id/et_emaill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Username atau Email"
+                android:inputType="textEmailAddress"
+                android:shadowColor="@color/white"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/Black"
+                android:textCursorDrawable="@color/white"
+                android:textSize="20sp"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="19sp"
+            android:background="@drawable/ic_lock_black_24dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/Black">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:password="true"
+                android:shadowColor="@color/white"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@color/white"
+                android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_resetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Lupa Password ?"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/tv_remeberme"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Remember me ?"
+        android:visibility="invisible"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/tv_token"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:text="Token ?"
+        android:layout_gravity="right"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:background="@color/colorAccent"
+    tools:context=".logRes.LoginSiswaActivity">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="19sp"
+            android:backgroundTint="@color/Black"
+            android:background="@drawable/ic_account_circle_black_24dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/Black">
+
+            <EditText
+                android:id="@+id/et_nis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="isi kan NIS"
+                android:inputType="textEmailAddress"
+                android:shadowColor="@color/Black"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Black"
+                android:textSize="20sp"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:textSize="18sp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="19sp"
+            android:backgroundTint="@color/Black"
+            android:background="@drawable/ic_lock_black_24dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/Black">
+
+            <EditText
+                android:id="@+id/et_passwords"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:password="true"
+                android:shadowColor="@color/white"
+                android:textColor="@color/Black"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/Black"
+                android:textCursorDrawable="@color/white"
+                android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tokens"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:text="Token ?"
+        android:layout_gravity="right"/>
+
+    <Button
+        android:id="@+id/btn_logins"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
