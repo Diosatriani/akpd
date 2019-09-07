@@ -40,7 +40,7 @@
                     android:layout_width="85dp"
                     android:layout_height="85dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/create" />
+                    android:src="@drawable/tambah" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                     android:layout_width="85dp"
                     android:layout_height="85dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/laporan" />
+                    android:src="@drawable/laporan1" />
 
                 <TextView
                     android:layout_width="match_parent"

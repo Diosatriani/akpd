@@ -92,7 +92,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tv_tokens"
+        android:id="@+id/tv_tipes"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:textColor="@color/white"

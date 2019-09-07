@@ -93,14 +93,13 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tv_tokeng"
+        android:id="@+id/tv_tipe"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:visibility="invisible"
         android:textStyle="bold"
-        android:text="Token ?"
         android:layout_gravity="right"/>
 
     <Button
